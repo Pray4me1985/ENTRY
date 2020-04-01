@@ -1,0 +1,14 @@
+Google Adsense 69
+DoubleClick for Publishers (DFP) (aka Google Ad Manager 49) including custom targeting
+Google Double Click for Publishers 16
+Amazon Affiliates 29 - Banner and Product Link Ads
+CodeFund 15 - Ethical Ad Platform for Developers
+Carbon Ads 19
+You can download the officially endorsed Advertising plugin here 677 and start serving ads to your Discourse forum.
+
+Current limitations require you to set a very permissive policy using the content_security_policy_script_src site setting. See below 33:
+
+If your site uses an advertising service (like Google Ad Manager, Adsense, etc.) you probably will have to use a very permissive policy:
+
+image.png
+In the screenshot above, the policy allows any script from a https: source and any inline script. (In the future, this might be replaced by the strict-dynamic keyword, but as of this writing, strict-dynamic isn’t supported by Safari or Edge.)
